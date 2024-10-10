@@ -1,6 +1,3 @@
-Here’s a structured `README.md` file for your project:
-
-```markdown
 # OCR Techniques Comparison: Classical vs LLM
 
 This project demonstrates the comparison between classical OCR techniques and the usage of an LLM (Language Learning Model) to extract text from images, specifically focusing on handwritten content like medical prescriptions.
@@ -86,13 +83,3 @@ Feel free to contribute, raise issues, or share your thoughts!
 ## License
 
 This project is licensed under the MIT License.
-```
-
----
-
-### Key Points:
-- **Installation** and **Running the Project** sections give clear instructions on how to set up and run both classical OCR and LLM-based OCR.
-- **Example Output** shows what users can expect when they run the scripts, making it more user-friendly.
-- You may want to customize the GitHub URL and any relevant sections based on your preferences.
-
-Let me know if you'd like any more adjustments!
