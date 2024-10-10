@@ -1,0 +1,6 @@
+pytesseract
+opencv-python-headless 
+pillow 
+easyocr
+openai==0.28
+requests
