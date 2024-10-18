@@ -1,8 +1,11 @@
 import base64
 import requests
+from dotenv import load_dotenv
+import os
+load_dotenv()
 
 # Set up your API key for OpenAI
-api_key = 'your-api-key'
+api_key = os.environ.get("OPENAI_KEY")
 
 # Function to encode the image
 def encode_image(image_path):
@@ -41,8 +44,8 @@ payload = {
   ],
   "max_tokens": 300
 }
-
+import time
+start_time = time.time()
 response = requests.post("https://api.openai.com/v1/chat/completions", headers=headers, json=payload)
-
-
+print(f"Total time: {time.time()-start_time} s ")
 print(response.json()['choices'][0]['message']['content'])
